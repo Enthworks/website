@@ -20,8 +20,7 @@ $txt ="Name = ". $name . "\r\n  Email = "
 	"\r\n Subject =" . $subject . 
 	"\r\n Message =" . $message;
  
-$headers = "From: noreply@enthworks.com" . "\r\n" .
-           "CC: somebodyelse@example.com";
+$headers = "From: enthworks@gmail.com";
 		   
 if($email != NULL) {
     mail($to, $subject, $txt, $headers);
